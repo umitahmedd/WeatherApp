@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.WeatherHoursBox{
+    display: flex;
+    column-gap: .1rem;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto; /* Yatay scroll */
+    white-space: nowrap; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 1140px;
+    background: #ffffff1e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.WeatherHoursBox::-webkit-scrollbar{
+    display: none;
+}
+
+.WeatherHour{
+    flex: 0 0 auto;
+    margin-right: 1rem; 
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WeatherHoursHour{
+    font-size: .8rem;
+}
+
+.WeatherHourCahngeOfRain{
+    color: rgb(0, 167, 209);
+}
+
+.WeatherHoursIcon img{
+    width: 50px;
+}
+

@@ -1,0 +1,40 @@
+.TodayDetail{
+    margin-top: .5rem;
+    display: flex;
+    column-gap: .5rem;
+    padding-top: 2.5rem;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto; 
+    white-space: nowrap; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background: #ffffff1e;
+    width: fit-content;
+    font-family: sans-serif;
+    width: 300px;
+    height: 214px;
+    font-size: 2rem;
+}
+
+.TodayDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.TodayDetailsTitle{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.TodayDetailsValue{
+    color: #ffffff8c;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
